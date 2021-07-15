@@ -4,3 +4,6 @@
 # package_name.__version__, which is used to get version information about this
 # Python package.
 from ._version import __version__  # noqa: F401
+from .modules import visit_webpage
+
+__all__ = ["visit_webpage"]
