@@ -1,0 +1,7 @@
+---
+
+tests:
+# empty so all tests are included.
+
+skips:
+  - B101  # skip "assert used" check since assertions are required in pytests
